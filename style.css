@@ -1,0 +1,188 @@
+<<<<<<< HEAD
+html,body{
+height:100%;
+margin:0;
+}
+.wrapper_index{
+	overflow: hidden;
+}
+.header{
+	margin-left: 70px;
+}
+.articles{
+	height: 500px;
+    overflow-y: scroll;
+}
+.art{
+	border: 2px solid black;
+	margin: 0 20px 20px 20px;
+}
+a { 
+    text-decoration: none;
+	color: black;
+}
+
+/*articles*/
+textarea {
+  outline: none;
+  resize: none;
+}
+.wrapper_articles{
+	margin: 30px;
+}
+h1,h2{
+	margin: 0;
+}
+.article_text{
+	margin: 0px 20px;
+	text-align: justify;
+}
+.article_image{
+	float: left;
+    margin: 20px;
+}
+.art{
+	position: relative;
+}
+.addNewPost{
+	margin-left: 30px;
+}
+#editPost{
+	margin-top: 30px;
+	position: absolute;
+	right: 20px;
+	bottom: 0;
+}
+.addNewPost:hover,.read_more:hover,.editPost:hover{
+	background: #786b59;
+}
+#form{
+	width: 400px;
+}
+.field{
+	clear:both; 
+	line-height:22px;
+}
+label{ 
+	float:left;
+	padding-right:20px;
+}
+.wrapper_addNewPost{
+	margin: 50px 100px;
+}
+#comment{
+	width: 100%;
+}
+
+.comment__image,.comment__param{
+	display: inline;
+}
+.comment__image{
+	width: 20%;
+}
+.comment__param{
+	width: 78%;
+	float: right;
+}
+.comment__name_user,.comment__email_author{
+	display: inline;
+}
+.btn{
+	float: right;
+	margin:15px;
+	height: 30px;
+=======
+html,body{
+height:100%;
+margin:0;
+}
+.wrapper_index{
+	overflow: hidden;
+}
+.header{
+	margin-left: 70px;
+}
+.articles{
+	height: 500px;
+    overflow-y: scroll;
+}
+.art{
+	border: 2px solid black;
+	margin: 0 20px 20px 20px;
+}
+a { 
+    text-decoration: none;
+	color: black;
+}
+
+/*articles*/
+textarea {
+  outline: none;
+  resize: none;
+}
+.wrapper_articles{
+	margin: 30px;
+}
+h1,h2{
+	margin: 0;
+}
+.article_text{
+	margin: 0px 20px;
+	text-align: justify;
+}
+.article_image{
+	float: left;
+    margin: 20px;
+}
+.art{
+	position: relative;
+}
+.addNewPost{
+	margin-left: 30px;
+}
+#editPost{
+	margin-top: 30px;
+	position: absolute;
+	right: 20px;
+	bottom: 0;
+}
+.addNewPost:hover,.read_more:hover,.editPost:hover{
+	background: #786b59;
+}
+#form{
+	width: 400px;
+}
+.field{
+	clear:both; 
+	line-height:22px;
+}
+label{ 
+	float:left;
+	padding-right:20px;
+}
+.wrapper_addNewPost{
+	margin: 50px 100px;
+}
+#comment{
+	width: 100%;
+}
+
+.comment__image,.comment__param{
+	display: inline;
+}
+.comment__image{
+	width: 20%;
+}
+.comment__param{
+	width: 78%;
+	float: right;
+}
+.comment__name_user,.comment__email_author{
+	display: inline;
+}
+.btn{
+	float: right;
+	margin:15px;
+	height: 30px;
+>>>>>>> 11578f8b904c2e74ef1829e1ea96126a16a48da8
+}
