@@ -8,6 +8,6 @@ $config = array(
 		'server' => '127.0.0.1',
 		'username' => 'root',
 		'password' => '',
-		'name' => 'db_blog'
+		'name' => 'blog'
 	)
 );

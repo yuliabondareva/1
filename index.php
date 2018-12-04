@@ -36,7 +36,8 @@ require_once "config/db.php"
 								<br>
 							<div id="editPost">
 								<a href="/blog/views/editPost.php?id=<?php echo $article['id']; ?>" class="editPost">edit</a>
-								<a href="#">delete</a>
+								<a href="/blog/views/deletePost.php?id=<?php echo $article['id']; ?>" class="delete">delete</a>
+				
 							</div>
 						</div>
 					<?php
